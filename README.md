@@ -1,9 +1,5 @@
 # trellololo-cards-process
-A Trello client app for process my cards. Just listing cards, extract the number and sum all of them. Nothing to do here...
-
-###Dependencies
-- [ruby-trello](https://github.com/jeremytregunna/ruby-trello)
-- [terminal-table](https://github.com/tj/terminal-table)
+A Trello client app for process my cards. Just listing cards, extract their number and sum all of them. Nothing to do here...
 
 ###To get key and token
 1. Get your API keys from [trello.com/app-key](https://trello.com/app-key).
@@ -15,3 +11,7 @@ A Trello client app for process my cards. Just listing cards, extract the number
     - The URL will look like this:
       `https://trello.com/1/authorize?key=YOURAPIKEY&response_type=token&expiration=never`
 3. You should see a page asking you to authorize your Trello application. Click "allow" and you should see a second page with a long alphanumeric string. This is your member token.
+
+###Dependencies
+- [ruby-trello](https://github.com/jeremytregunna/ruby-trello)
+- [terminal-table](https://github.com/tj/terminal-table)
