@@ -3,7 +3,7 @@ require 'terminal-table'
 require 'yaml'
 
 # load configuration file
-app_config = YAML.load_file('_config.yml')
+app_config = YAML.load_file(File.join(__dir__, '_config.yml'))
 
 # connect to Trello
 Trello.configure do |config|
