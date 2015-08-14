@@ -1,6 +1,11 @@
 # trellololo-cards-process
 A Trello client app for process my cards. Just listing cards, extract their number and sum all of them. Nothing to do here...
 
+###Install
+1. Clone.
+2. Add the following alias to the ~/.bashrc or something ```alias olotrello="~/path/to/repo/app.rb"```.
+3. Use it!.
+
 ###To get key and token
 1. Get your API keys from [trello.com/app-key](https://trello.com/app-key).
 2. Visit the URL [trello.com/1/authorize], with the following GET parameters:
