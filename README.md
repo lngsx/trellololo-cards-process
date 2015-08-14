@@ -2,9 +2,8 @@
 A Trello client app for process my cards.
 
 ###Dependencies
-- trello
-- terminal-table
-- yaml
+- [ruby-trello](https://github.com/jeremytregunna/ruby-trello)
+- [terminal-table](https://github.com/tj/terminal-table)
 
 ###To get key and token
 Get your API keys from trello.com/app-key.
