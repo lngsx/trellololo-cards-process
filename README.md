@@ -1,5 +1,5 @@
 # trellololo-cards-process
-A Trello client app for process my cards.
+A Trello client app for process my cards. Nothing to d here...
 
 ###Dependencies
 - [ruby-trello](https://github.com/jeremytregunna/ruby-trello)
