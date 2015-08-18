@@ -11,6 +11,15 @@ Trello.configure do |config|
 	config.member_token = app_config['member_token']
 end
 
+
+# helper for add delimiter
+# ref http://stackoverflow.com/questions/1078347/is-there-a-rails-trick-to-adding-commas-to-large-numbers
+def add_delimiter(number)
+	number.to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
+end
+
+
+
 lists = app_config["lists"]
 
 lists.each do |list_id|
@@ -39,9 +48,13 @@ lists.each do |list_id|
 	puts table
 
 	# summary printing
-	puts "The sum of #{list.name} is #{sum}"
+	clean_sum = add_delimiter sum
+	puts "The sum of #{list.name} is #{clean_sum}"
 
 	puts "\n"	
 
 end
+
+
+
 
